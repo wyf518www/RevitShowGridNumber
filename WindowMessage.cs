@@ -1,0 +1,57 @@
+﻿using System;
+
+namespace ShowGridNumber
+{
+	// Token: 0x02000009 RID: 9
+	public enum WindowMessage
+	{
+		// Token: 0x04000014 RID: 20
+		WM_SETFOCUS = 7,
+		// Token: 0x04000015 RID: 21
+		WM_KILLFOCUS,
+		// Token: 0x04000016 RID: 22
+		WM_PAINT = 15,
+		// Token: 0x04000017 RID: 23
+		WM_ERASEBKGND = 20,
+		// Token: 0x04000018 RID: 24
+		WM_KEYDOWN = 256,
+		// Token: 0x04000019 RID: 25
+		WM_KEYUP,
+		// Token: 0x0400001A RID: 26
+		WM_MOUSEMOVE = 512,
+		// Token: 0x0400001B RID: 27
+		WM_LBUTTONDOWN,
+		// Token: 0x0400001C RID: 28
+		WM_LBUTTONUP,
+		// Token: 0x0400001D RID: 29
+		WM_LBUTTONDBLCLK,
+		// Token: 0x0400001E RID: 30
+		WM_RBUTTONDOWN,
+		// Token: 0x0400001F RID: 31
+		WM_RBUTTONUP,
+		// Token: 0x04000020 RID: 32
+		WM_RBUTTONDBLCLK,
+		// Token: 0x04000021 RID: 33
+		WM_MBUTTONDOWN,
+		// Token: 0x04000022 RID: 34
+		WM_MBUTTONUP,
+		// Token: 0x04000023 RID: 35
+		WM_MOUSEWHEEL = 522,
+		// Token: 0x04000024 RID: 36
+		WM_MDIGETACTIVE = 32,
+		// Token: 0x04000025 RID: 37
+		WM_MDICREATE = 544,
+		// Token: 0x04000026 RID: 38
+		WM_DESTROY = 2,
+		// Token: 0x04000027 RID: 39
+		WM_SIZING = 532,
+		// Token: 0x04000028 RID: 40
+		WM_MOVE = 3,
+		// Token: 0x04000029 RID: 41
+		WM_MOVING = 534,
+		// Token: 0x0400002A RID: 42
+		WM_SIZE = 5,
+		// Token: 0x0400002B RID: 43
+		WM_MBUTTONDBLCLK = 521
+	}
+}
